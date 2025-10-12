@@ -7,7 +7,7 @@
     <title>Fitboxing My Hobby Project</title>
     <style>
       body {
-        background: plum;
+        background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
       }
       h1 {
         text-align: center;
@@ -102,10 +102,23 @@
         text-align: center;
         font-size: 18px;
       }
+
+      .dark {
+        background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: plum;
+      }
     </style>
   </head>
-  <body>
-    <button class="theme-button">Dark theme</button>
+  <body class="">
+    <button class="theme-button">Change theme</button>
     <div class="container">
       <header>
         <h1>What is Fitboxing?</h1>
@@ -152,5 +165,19 @@
       Coded with 💜 by
       <a href="http://github.com/Maricode-40" target="_blank">🇲🇽 Marissa Rico</a>
     </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
   </body>
 </html>
