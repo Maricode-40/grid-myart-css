@@ -1,123 +1,133 @@
-      body {
-        background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
-      }
-      h1 {
-        text-align: center;
-      }
+body {
+  background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+}
+h1 {
+  text-align: center;
+}
 
-      h2 {
-        text-align: center;
-      }
+h2 {
+  text-align: center;
+}
 
-      img {
-        max-width: 100%;
-      }
+img {
+  max-width: 100%;
+}
 
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        justify-content: center;
-      }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-content: center;
+}
 
-      .grid img {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        object-fit: cover;
-        border-radius: 8px;
-        display: block;
-        transition: all 10ms ease-in-out;
-      }
+.grid img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  transition: all 10ms ease-in-out;
+}
 
-      /* .grid img:hover {
+/* .grid img:hover {
         filter: contrast(80%);
         transform: scale(2);
       } */
 
-      
-      .fitbox-firstpicture {
-        border-radius: 18px;
-        transition: all 150ms ease-in-out;
-        width: 84vw;
-        height: 450px;
-        padding-top: 12px;
-        padding-bottom: 15px;
-        object-fit: calc(30% + 5px);
-      }
+.fitbox-firstpicture {
+  border-radius: 18px;
+  transition: all 150ms ease-in-out;
+  width: 84vw;
+  height: 450px;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  object-fit: calc(30% + 5px);
+}
 
-      .fitbox-firstpicture:hover {
-        filter: contrast(80%);
-        transform: scale(1.1);
-      }
+.fitbox-firstpicture:hover {
+  filter: contrast(90%);
+  transform: scale(1.3);
+}
 
-      .container {
-        max-width: 600px;
-        margin: 20px auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-      }
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+}
 
-      p {
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: justify;
-      }
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
 
-      button {
-        display: block;
-        margin: 0 auto;
-        border: 1px solid plum;
-        background: white;
-        font-size: 20px;
-        border-radius: 6px;
-        padding: 10px 15px;
-        transition: all 150ms ease-in-out;
-      }
+.order-button {
+  background: #885df1;
+  display: block;
+  margin: 30px auto;
+  color: white;
+  width: 70%;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Cerebri Sans, sans-serif;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
 
-      button:hover {
-        background: plum;
-        cursor: pointer;
-      }
+.order-button:hover {
+  opacity: 90%;
+  background: #fff;
+  color: #885df1;
+  border: 1px solid #885df1
+}
 
-      .theme-button {
-        font-size: 14px;
-        background: black;
-        color: white;
-        padding: 10 15px;
-        font-family: cerebri-sans, sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;;
+.theme-button {
+  display: block;
+  background: #885df1;
+  color: white;
+  font-size: 16px;
+  font-family: Cerebri Sans, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  margin: 0 auto;
+}
 
-      }
+.theme-button:hover {
+  opacity: 0.9;
+}
 
-      .theme-button:hover {
-        color: black;
-        background: white;
-  
-      }
+footer {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
 
-      footer {
-        margin: 10px 0;
-        text-align: center;
-        font-size: 18px;
-      }
+.dark {
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  color: white;
+}
 
-      .dark {
-        background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-        color: white;
-      }
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
 
-      .dark .container {
-        background: rgba(255, 255, 255, 0.1);
-      }
+.dark a {
+  color: plum;
+}
 
-      .dark a {
-        color: plum;
-      }
-
-      .logo {
-        max-width: 200px;
-        display: block;
-        margin: 40px auto;
-      }
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 40px auto;
+}
