@@ -1,8 +1,8 @@
 ###  SheCodes Basics Add-on Project
 
 ## SheCodes.io👩🏽‍💻 
-<p style ="text align: center; color: pink;">  A landing page about one of your hobbies.
- The Project does include: </p>
+<p style ="text align: center; color: pink;">  A landing page about one of your hobbies. </p>
+The Project does include: 
 
  - HTML 
  - CSS Background Properties
