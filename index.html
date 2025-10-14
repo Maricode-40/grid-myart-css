@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Maricode-40" />
     <title>Fitboxing My Hobby Project</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
   </head>
   <body>
     <a href="https://www.shecodes.io/" target="_blank">
-      <img src="https://s3.amazonaws.com/shecodesio-development/uploads/files/000/000/001/original/logo.png?1627901693" class="logo" alt="SheCodes Logo">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-development/uploads/files/000/000/001/original/logo.png?1627901693"
+        class="logo"
+        alt="SheCodes Logo"
+      />
     </a>
-    <button class="theme-button"> Change Theme </button>
+    <button class="theme-button">Change Theme</button>
     <div class="container">
       <header>
         <h1>What is Fitboxing?</h1>
@@ -55,21 +60,7 @@
     </div>
     <footer>
       Coded with 💜 by
-      <a href="http://github.com/Maricode-40" target="_blank">🇲🇽 Marissa Rico </a>  
+      <a href="http://github.com/Maricode-40" target="_blank">🇲🇽 Marissa Rico </a>
     </footer>
-
-    <script>
-      function changeTheme() {
-        let body = document.querySelector("body");
-
-        if (body.classList.contains("dark")) {
-          body.classList.remove("dark");
-        } else {
-          body.classList.add("dark");
-        }
-      }
-      let themeButton = document.querySelector(".theme-button");
-      themeButton.addEventListener("click", changeTheme);
-    </script>
   </body>
 </html>
